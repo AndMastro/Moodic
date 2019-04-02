@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="author" content="Alessandro Maccagno, Andrea Mastropietro, Eric Stefan Miele">
+		<meta name="keywords" content="moodic, mood, listen">
+		<title>Moodic - Angry</title>
+		<link rel=stylesheet href="styles.css" type="text/css">
+		<script src="jquery-3.1.1.js"></script>
+		<script type="text/javascript" language="javascript" src="script.js""></script>
+	</head>
+	<body id="angry" onload="return playSong('angry');">
+		<h1 id="angryH1">Moodic - Angry</h1>
+		<nav class="navAngry">
+			<a class="navAngry" href="songpage.html">Home</a> |
+			<a class="navAngry" href="wim.html">What is Moodic?</a> |
+			<a class="navAngry" href="authors.html">Authors</a> |
+			<a class="navAngry" href="contacts.html">Contacts</a>
+		</nav>
+		<div class="divLyrics"></div>
+		<div class="divDetails"></div>
+		<div class="userArea">
+			<span class="usernameArea"></span>
+			<span class="logout" onclick="return logout();">(logout)</span>
+		</div>
+		<button class="showLyrics">Show lyrics</button>
+		<button class="showDetails">Show details</button>
+		<button class="playButton">Pause</button>
+		<button class="nextButton">Next</button>
+	</body>
+</html>

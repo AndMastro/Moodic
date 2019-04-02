@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="author" content="Alessandro Maccagno, Andrea Mastropietro, Eric Stefan Miele">
+		<meta name="keywords" content="moodic, mood, listen">
+		<title>Moodic - Sign in</title>
+		<link rel=stylesheet href="styles.css" type="text/css">
+		<script type="text/javascript" language="javascript" src="script.js""></script>
+		<script src="jquery-3.1.1.js"></script>
+	</head>
+	<body class="boreal">
+		<h1>Moodic - Listen to your mood</h1>
+		<nav id="menu_nav">
+			<a href="homepage.html">Home</a> |
+			<a href="wim.html">What is Moodic?</a> |
+			<a href="authors.html">Authors</a> |
+			<a href="contacts.html">Contacts</a>
+		</nav>
+		<form class="div_center" id="sign_in_form" method="post" action="" name="sign_in" autocomplete onsubmit="return checkCredentials();">
+			Username: <br>
+			<input type="text" id="sign_in_username" name="username" size="30" maxlength="30" required autofocus> <br> <br>
+			Password: <br>
+			<input type="password" id="sign_in_password" name="password" size="30" maxlength="30" required> <br> <br>
+			<input class="button" type="submit" value="Sign in"> <br>
+		</form>
+	</body>
+</html>

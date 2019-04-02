@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="author" content="Alessandro Maccagno, Andrea Mastropietro, Eric Stefan Miele">
+		<meta name="keywords" content="moodic, mood, listen">
+		<title>Moodic - Relaxed</title>
+		<link rel=stylesheet href="styles.css" type="text/css">
+		<script src="jquery-3.1.1.js"></script>
+		<script type="text/javascript" language="javascript" src="script.js""></script>
+	</head>
+	<body id="relaxed" onload="return playSong('relaxed');">
+		<h1 id="relaxedH1">Moodic - Relaxed</h1>
+		<nav class="navRelaxed">
+			<a class="navRelaxed" href="songpage.html">Home</a> |
+			<a class="navRelaxed" href="wim.html">What is Moodic?</a> |
+			<a class="navRelaxed" href="authors.html">Authors</a> |
+			<a class="navRelaxed" href="contacts.html">Contacts</a>
+		</nav>
+		<div class="divLyrics"></div>
+		<div class="divDetails"></div>
+		<div class="userArea">
+			<span class="usernameArea"></span>
+			<span class='logout' onclick="return logout();">(logout)</span>
+		</div>
+		<button class="showLyrics">Show lyrics</button>
+		<button class="showDetails">Show details</button>
+		<button class="playButton">Pause</button>
+		<button class="nextButton">Next</button>
+	</body>
+</html>

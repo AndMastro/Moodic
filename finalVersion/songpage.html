@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="author" content="Alessandro Maccagno, Andrea Mastropietro, Eric Stefan Miele">
+		<meta name="keywords" content="moodic, mood, listen">
+		<title>Moodic - Listen to your mood</title>
+		<link rel=stylesheet href="styles.css" type="text/css">
+		<script src="jquery-3.1.1.js"></script>
+		<script type="text/javascript" language="javascript" src="script.js""></script>
+	</head>
+	<body class="boreal">
+		<h1>Moodic - Listen to your mood</h1>
+		<nav id="menu_nav">
+			<a href="songpage.html">Home</a> |
+			<a href="wim.html">What is Moodic?</a> |
+			<a href="authors.html">Authors</a> |
+			<a href="contacts.html">Contacts</a>
+		</nav>
+		<div class="div_center">
+			How do you feel? <br><br>
+			<form name="moods_form" onsubmit="return openMoodPage();">
+				<select name="moods" required>
+					<option value="" selected>Select your mood
+					<option value="angry">Angry
+					<option value="happy">Happy
+					<option value="relaxed">Relaxed
+					<option value="sad">Sad
+					<option value="weird">Weird
+					<option value="xmas">Christmassy (seasonal mood)
+				</select>
+				<input id="chooseButton" type="submit" class="button" value="Listen to your mood">
+				</form>
+		</div>
+		<div class="userArea">
+			<span class="usernameArea"></span>
+			<span class="logout" onclick="return logout();">(logout)</span>
+		</div>
+	</body>
+</html>

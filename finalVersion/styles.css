@@ -1,0 +1,361 @@
+
+/*Wallpapers*/
+
+.boreal {
+	text-align:center;
+	background-image: url("images/boreal_aurora.jpg");
+	}
+
+#sad {
+	background-image: url("images/moods/sad2.gif");
+	text-align:center;
+	background-size: 100%;
+}
+
+#happy {
+	background-image: url("images/moods/happy2.gif");
+	text-align:center;
+	background-size: 100%;
+}
+
+#angry {
+	background-image: url("images/moods/angry3.gif");
+	background-size: 100%;
+	text-align:center;
+}
+
+#relaxed {
+	background-image: url("images/moods/relaxed1.gif");
+	background-size: 100%;
+	text-align:center;
+}
+
+#weird {
+	background-image: url("images/moods/weird1.gif");
+	background-size: 100%;
+	text-align:center;
+}
+
+#xmas {
+	background-image: url("images/moods/xmas4.gif");
+	background-size: 100%;
+	text-align:center;
+}
+
+/*Elements*/
+
+h1 {
+	color: #ffffff;
+	font-family: serif;
+	font-style: italic;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+a {
+	color: #ffffff;
+}
+
+p {
+	text-align: left;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+
+/*Buttons*/
+
+.showLyrics {
+	display: inline-block;
+	position: absolute;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px 13px;
+	bottom: 18px;
+  	right: 150px;
+  	width: 120px;
+}
+
+.showDetails {
+	display: inline-block;
+	position: absolute;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px 13px;
+	bottom: 18px;
+  	right: 25px;
+  	width: 120px;
+}
+
+.playButton {
+	display: inline-block;
+	position: absolute;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px 13px;
+	bottom: 18px;
+  left: 25px;
+  width: 100px;
+}
+
+.nextButton {
+	display: inline-block;
+	position: absolute;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px 13px;
+	bottom: 70px;
+  left: 25px;
+  width: 100px;
+}
+
+.button {
+	padding: 10px 25px;
+	font-size: 20px;
+ 	text-align: center;
+ 	cursor: pointer;
+	color: #ffffff;
+	background-color: #0077b3;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 6px #999;
+	height: 50px;
+	width: 120px;
+}
+
+#sign_in_button {
+	position: relative;
+	margin-left: 13px;
+}
+
+#sign_up_button {
+	position: relative;
+	margin-left: 22px;
+}
+
+#chooseButton {
+	padding: 10px 15px;
+	width: 200px;
+}
+
+.signUpButtons {
+	padding: 10px 15px;
+	font-size: 18px;
+ 	text-align: center;
+ 	cursor: pointer;
+	color: #ffffff;
+	background-color: #0077b3;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 6px #999;
+	width: 100px;
+}
+
+.button:hover, .signUpButtons:hover  {
+	background-color: #004466
+}
+
+.button:active, .signUpButtons:active {
+  background-color: #3399ff;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+
+
+/*Headers*/
+
+#happyH1 {
+	color: #0000cd;
+}
+
+#xmasH1 {
+	color: red;
+}
+
+
+
+/*Divs*/
+
+.div_center {
+	display: inline-block;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	border-radius: 15px;
+	background-color: rgba(128, 212, 255, 0.5);
+	padding: 15px 25px;
+}
+
+#wimDiv {
+	text-align: left;
+}
+
+#contactsDiv {
+	text-align: left;
+	margin-top: 5%;
+}
+
+.divLyrics {
+	visibility: hidden;
+	display: inline-block;
+	overflow-y:auto;
+	max-height: 70%;
+	width:400px;
+	background-color: rgba(255, 255, 255, 0.2);
+	top: 50%;
+	color: black;
+	font-style: italic;
+	position: absolute;
+  left: 50%;
+  transform: translate(-50%, -42%);
+	border-radius: 15px;
+	padding: 15px 25px;
+}
+
+
+.divDetails{
+	visibility: hidden;
+	display: inline-block;
+	overflow-y:auto;
+	background-color: rgba(255, 255, 255, 0.2);
+	top: 30%;
+	color: black;
+	font-style: italic;
+	position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+	border-radius: 15px;
+	padding: 15px 25px;
+}
+
+#weirdDivLyrics{
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
+}
+
+#xmasDivLyrics {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#xmasDivDetails {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#weirdDivDetails{
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
+}
+
+#div_signup {
+	display: inline-block;
+	position: absolute;
+  	top: 300px;
+  	left: 50%;
+  	transform: translate(-50%, -20%);
+	border-radius: 15px;
+	background-color: rgba(128, 212, 255, 0.5);
+	padding: 15px 25px;
+}
+
+.userArea {
+	visibility: hidden;
+	display: inline-block;
+	position: absolute;
+  	top: 3%;
+  	right: 2%;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 10px 13px;
+}
+
+
+
+/*Navs*/
+
+.navHappy {
+	color: #0000cd;
+}
+
+.navXmas {
+	color: white;
+}
+
+.navRelaxed {
+	color: white;
+}
+
+.navAngry {
+	color: white;
+}
+
+.navWeird {
+	color: white;
+}
+
+#menu_nav {
+	color: white;
+}
+
+
+
+/*Other format options*/
+
+.mailClass:link {
+	color: blue;
+}
+
+.mailClass:hover {
+	color: white;
+}
+
+.mailClass:active {
+	color: red;
+}
+
+.nameFormat {
+	font-weight: bold;
+}
+
+.cover {
+	height: 300px;
+	width: 300px;
+
+}
+
+.little {
+	font-size: 11px;
+}
+
+.authorName {
+	margin-top: 7px;
+}
+
+.songTitle {
+	margin-top: 2px;
+}
+
+.downloadSong {
+	font-style: normal;
+	margin-top: 10px;
+}
+
+.downloadLink {
+	color: black;
+}
+
+.logout {
+	cursor: pointer;
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+.usernameArea {
+	font-style: italic;
+	font-size: 13px;
+}
